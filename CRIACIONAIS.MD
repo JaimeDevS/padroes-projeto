@@ -41,8 +41,10 @@ GOF
 CLASSE...
 - DEFINIR UM PONTO DE CRIAÇÃO
 ESTÁTICO...
-... QUE RETORNE ESTA INSTÂNCIA ÚNICA
-
+- ... QUE RETORNE ESTA INSTÂNCIA ÚNICA
+>Garantir que uma classe só tenha uma única instância, e
+prover um ponto de acesso global a ela.
+GOF
 --- 
 
 
