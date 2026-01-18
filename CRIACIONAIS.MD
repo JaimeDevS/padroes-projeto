@@ -1,1 +1,16 @@
 # CRIACIONAIS
+## Factory Method
+
+#### PROBLEMAS
+- COMO POSSO ESCREVER UM CÓDIGO ONDE AS CLASSES INSTANCIADAS POSSAM VARIAR DENTRO DE UMA MESMA INTERFACE?
+- COMO DEIXAR O MEU CÓDIGO DESACOPLADO DAS CLASSES CONCRETAS?
+
+#### SOLUÇÃO
+- EXTRAIR A LÓGICA DE CRIAÇÃO DOS OBJETOS PARA UM FACTORY METHOD
+- INVOCAR O FACTORY METHOD PARA RECEBER UMA INSTÂNCIA QUALQUER QUE IMPLEMENTE UMA DETERMINADA INTERFACE
+
+>Um padrão que define uma interface para criar um objeto,
+mas permite às classes decidirem qual classe instanciar.
+O Factory Method permite a uma classe deferir a
+instanciação para subclasses.
+GOF
