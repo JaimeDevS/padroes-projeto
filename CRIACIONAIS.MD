@@ -24,6 +24,9 @@ GOF
 #### SOLUÇÃO
 - EXTRAIR A LÓGICA DE CRIAÇÃO DOS OBJETOS PARA UM ABSTRACT FACTORY
 - CRIAR UMA IMPLEMENTAÇÃO DO ABSTRACT FACTORY PARA CADA CONTEXTO, GARANTINDO QUE TODOS OS OBJETOS CRIADOS ESTEJAMRELACIONADOS
+>Prover uma interface para criar famílias de objetos relacionados ou dependentes sem especificar suas
+classes concretas.
+GOF
 
 ---
 
