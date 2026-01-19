@@ -49,7 +49,16 @@ GOF
 
 
 ## Builder
-
+#### PROBLEMAS
+- COMO UMA CLASSE PODE CRIAR DIFERENTES REPRESENTAÇÕES DE UM MESMO OBJETO COMPLEXO?
+#### SOLUÇÃO
+- DELEGAR A CRIAÇÃO DO OBJETO PARA UM BUILDER AO INVÉS DE INSTANCIAR O OBJETO CONCRETO DIRETAMENTE
+- DIVIDIR A CRIAÇÃO DO OBJETO EM PARTES...
+- ENCAPSULAR A CRIAÇÃO E MONTAGEM DESSAS PARTES EM UM BUILDER SEPARADO
+> Separar a construção de um objeto complexo de sua
+representação para que o mesmo processo de
+construção possa criar representações diferentes.
+GOF
 --- 
 
 ## Prototype
