@@ -62,5 +62,12 @@ GOF
 --- 
 
 ## Prototype
-
+#### PROBLEMAS
+- COMO POSSO CRIAR UM OBJETO NOVO APROVEITANDO O ESTADO PREVIAMENTE EXISTENTE DE OUTRO OBJETO?
+#### SOLUÇÃO
+- DEFINIR UM PROTOTYPE QUE RETORNE A CÓPIA DE SI MESMO
+>Especificar os tipos de objetos a serem criados usando
+uma instância como protótipo e criar novos objetos ao
+copiar este protótipo.
+GOF
 --- 
