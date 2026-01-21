@@ -1,7 +1,5 @@
 package br.com.cod3r.strategy.person.strategies.transportation;
 
-import br.com.cod3r.strategy.person.strategies.transportation.TransportationStrategy;
-
 public class WalkStrategy implements TransportationStrategy {
 
 	@Override

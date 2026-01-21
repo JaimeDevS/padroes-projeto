@@ -1,7 +1,5 @@
 package br.com.cod3r.strategy.person.strategies.work;
 
-import br.com.cod3r.strategy.person.strategies.work.WorkStrategy;
-
 public class NoWorkStrategy implements WorkStrategy {
 
 	@Override
