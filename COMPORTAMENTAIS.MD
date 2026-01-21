@@ -1,0 +1,17 @@
+# COMPORTAMENTAIS
+## Strategy
+
+#### PROBLEMAS
+- COMO UMA CLASSE PODE UTILIZAR UM ALGORITMO DEFINIDO DINAMICAMENTE?
+- COMO POSSO SELECIONAR E TROCAR UMA LÓGICA EM TEMPO DE EXECUÇÃO?
+
+#### SOLUÇÃO
+- ENCAPSULAR OS ALGORITMOS POSSÍVEIS PARA O MESMO PROBLEMA EM UMA ESTRUTURA DE STRATEGY 
+- O CLIENTE IRÁ DELEGAR A EXECUÇÃO PARA ESTAS ESTRATÉGIAS AO INVÉS DE POSSUIR TODA A LÓGICA INTERNAMENTE
+
+>Definir uma família de algoritmos, encapsular cada um, e
+fazê-los intercambiáveis. Strategy permite que algoritmos
+mudem independentemente entre clientes que os
+utilizam.
+GOF
+---
